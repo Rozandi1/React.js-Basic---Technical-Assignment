@@ -14,7 +14,7 @@ function App() {
     <>
       <div className="container my-5">
         <h1 className="text-center">Anime List</h1>
-        <div id="daftar-movie" className="container my-5">
+        <div id="daftar-movie" className="container row my-5">
           <MovieCard key={movieCard.mal_id} movieCard={movieCard} />
         </div>
       </div>
